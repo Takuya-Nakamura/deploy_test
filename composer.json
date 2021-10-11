@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "mentosmenno2/sftp-deploy": "^1.1"
+    },
+    "scripts": {
+      "sftp-deploy" : [
+        "sftp-deploy"
+      ],
+      "deploy": [
+        "@sftp-deploy deploy"
+      ]
+    }    
+}
