@@ -1,7 +1,7 @@
 <?php
 
-$i = 1;
-while ($i <= 300){
+$i = 300;
+while ($i <= 1000){
   copy('./original.jpg', "./output/copy_$i.jpg");  
   $i++;
 }
